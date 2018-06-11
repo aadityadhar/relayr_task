@@ -1,4 +1,4 @@
-# realyr_task
+# relayr_task
 
 
 This project has been build using Java with Maven, jars and plugins used are mentioned in pom.xml file which is located on project root folder. Aim of this project is to automate few scnearios of this website - https://imdb.com/
