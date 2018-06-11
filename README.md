@@ -14,17 +14,17 @@ Scenarios Covered in this framework:
 
  # i) Packages
 
-    a) src/main/java/pageObject: This package has classes which contain all the locators and their corrosponding methods for doing various operation on IMDB Webelments
+a) src/main/java/pageObject: This package has classes which contain all the locators and their corrosponding methods for doing various operation on IMDB Webelments
 
-    b) src/main/java/utilities: This package has classes where custom made java methods are present which we will use for perfoming  operations such as Reading Excel, TakingScreenshots, Reading Properties etc.
+b) src/main/java/utilities: This package has classes where custom made java methods are present which we will use for perfoming  operations such as Reading Excel, TakingScreenshots, Reading Properties etc.
 
-    c) src/main/java/resources: This package has all the resources which will be required to run test cases, currently it contains webdriver and configuration files(.properties and .xml)  which are being used in this project.
+c) src/main/java/resources: This package has all the resources which will be required to run test cases, currently it contains webdriver and configuration files(.properties and .xml)  which are being used in this project.
 
-    d) src/test/java/tests: This package will contain all test classes related to IMDB. 
+d) src/test/java/tests: This package will contain all test classes related to IMDB. 
 
-    e) src/test/java/baseTests: This package contain base class which contains all the initialization methods, before and after TestNG methods which are required to run test cases in IMDBTests.
+e) src/test/java/baseTests: This package contain base class which contains all the initialization methods, before and after TestNG methods which are required to run test cases in IMDBTests.
 
-    f) src/test/java/testData- This package will have all the test data required for running test cases, currently this package has data in Excel format
+f) src/test/java/testData- This package will have all the test data required for running test cases, currently this package has data in   Excel format
 
 
 # ii) CustomTestOutput
