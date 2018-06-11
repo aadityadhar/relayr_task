@@ -18,7 +18,7 @@ Scenarios Covered in this framework:
 
     b) src/main/java/utilities: This package has classes where custom made java methods are present which we will use for perfoming  operations such as Reading Excel, TakingScreenshots, Reading Properties etc.
 
-    c) src/main/java/resources: This package has all the resources which will be required to run test cases, currently it contains webdriver     and configuration files(.properties and .xml)  which are being used in this project.
+    c) src/main/java/resources: This package has all the resources which will be required to run test cases, currently it contains webdriver and configuration files(.properties and .xml)  which are being used in this project.
 
     d) src/test/java/tests: This package will contain all test classes related to IMDB. 
 
