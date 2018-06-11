@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-11T15:52:10Z" name="Default suite" finished-at="2018-06-11T15:53:20Z" duration-ms="69701">
+    <groups>
+    </groups>
+    <test started-at="2018-06-11T15:52:10Z" name="Default test" finished-at="2018-06-11T15:53:20Z" duration-ms="69701">
+      <class name="tests.IMDBTests">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:52:10Z" name="setupBrowser" finished-at="2018-06-11T15:52:48Z" duration-ms="37530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:52:49Z" name="createReportLogger" finished-at="2018-06-11T15:52:49Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.IMDBTests.verifySearch(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifySearch(java.lang.String)[pri:1, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:52:49Z" name="verifySearch" data-provider="movies" finished-at="2018-06-11T15:52:57Z" duration-ms="8075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lord of the rings]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:52:57Z" name="captureStatus" finished-at="2018-06-11T15:52:57Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearch status=SUCCESS method=IMDBTests.verifySearch(java.lang.String)[pri:1, instance:tests.IMDBTests@41fecb8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:52:57Z" name="createReportLogger" finished-at="2018-06-11T15:52:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.IMDBTests.verifySearch(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifySearch(java.lang.String)[pri:1, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:52:57Z" name="verifySearch" data-provider="movies" finished-at="2018-06-11T15:53:03Z" duration-ms="6442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harry potter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:03Z" name="captureStatus" finished-at="2018-06-11T15:53:03Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearch status=SUCCESS method=IMDBTests.verifySearch(java.lang.String)[pri:1, instance:tests.IMDBTests@41fecb8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:03Z" name="createReportLogger" finished-at="2018-06-11T15:53:03Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.IMDBTests.verifySearch(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifySearch(java.lang.String)[pri:1, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:03Z" name="verifySearch" data-provider="movies" finished-at="2018-06-11T15:53:15Z" duration-ms="12047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:15Z" name="captureStatus" finished-at="2018-06-11T15:53:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearch status=SUCCESS method=IMDBTests.verifySearch(java.lang.String)[pri:1, instance:tests.IMDBTests@41fecb8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="createReportLogger(java.lang.reflect.Method)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:15Z" name="createReportLogger" finished-at="2018-06-11T15:53:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.IMDBTests.verifyInvalidLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportLogger -->
+        <test-method signature="verifyInvalidLogin()[pri:2, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:15Z" name="verifyInvalidLogin" finished-at="2018-06-11T15:53:19Z" duration-ms="3398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:19Z" name="captureStatus" finished-at="2018-06-11T15:53:19Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=IMDBTests.verifyInvalidLogin()[pri:2, instance:tests.IMDBTests@41fecb8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.IMDBTests@41fecb8b]" started-at="2018-06-11T15:53:19Z" name="tearDown" finished-at="2018-06-11T15:53:20Z" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.IMDBTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

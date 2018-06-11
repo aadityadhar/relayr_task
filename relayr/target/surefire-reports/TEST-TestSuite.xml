@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="32.724" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Deepanshu\eclipse-workspace\relayr"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Deepanshu\eclipse-workspace\relayr"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DEEPAN~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Deepanshu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5957846793154798935.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files (x86)\CrSSL\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\apache-maven-3.5.3\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Python27;C:\Python27\Scripts;C:\Ruby25-x64\bin;C:\Users\Deepanshu\AppData\Local\Microsoft\WindowsApps;C:\Users\Deepanshu\Anaconda3\Library\bin\graphviz;C:\Users\Deepanshu\AppData\Local\Microsoft\WindowsApps;C:\Users\Deepanshu\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Deepanshu"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="Deepanshu"/>
+    <property name="java.class.path" value="C:\Users\Deepanshu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Deepanshu\eclipse-workspace\relayr\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifySearch" classname="tests.IMDBTests" time="7.981">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at tests.IMDBTests.verifySearch(IMDBTests.java:34)
+</failure>
+    <system-out><![CDATA[ INFO [main] (BaseClass.java:76)- ###########Opening Browser##########
+ INFO [main] (IMDBUtilities.java:24)- Reading Excel file Movies
+ INFO [main] (IMDBUtilities.java:42)- Reading of excel file Movies is completed
+ INFO [main] (SearchObjects.java:38)- Searching lord of the rings on IMDB
+ INFO [main] (SearchObjects.java:74)- Checking Accuracy of Search w.r.t. movie: lord of the rings in suggestions
+ INFO [main] (SearchObjects.java:81)- Matching suggestions: The Lord of the Rings: The Fellowship of the Ring (2001)
+Elijah Wood, Ian McKellen
+ INFO [main] (SearchObjects.java:81)- Matching suggestions: The Lord of the Rings: The Return of the King (2003)
+Elijah Wood, Viggo Mortensen
+ INFO [main] (SearchObjects.java:81)- Matching suggestions: The Lord of the Rings: The Two Towers (2002)
+Elijah Wood, Ian McKellen
+ERROR [main] (SearchObjects.java:86)- Non-Matching suggestions: Phil Lord
+Writer, The Lego Movie (2014)
+ERROR [main] (SearchObjects.java:86)- Non-Matching suggestions: Robin Lord Taylor
+Actor, Accepted (2006)
+ERROR [main] (SearchObjects.java:86)- Non-Matching suggestions: Red Riding: The Year of Our Lord 1974 (2009)
+Andrew Garfield, David Morrissey
+ERROR [main] (SearchObjects.java:86)- Non-Matching suggestions: Lord of War (2005)
+Nicolas Cage, Ethan Hawke
+ERROR [main] (SearchObjects.java:86)- Non-Matching suggestions: Lord of the Flies (1990)
+Balthazar Getty, Chris Furrh
+ INFO [main] (SearchObjects.java:90)- Search accuracy of Search w.r.t. movie lord of the rings is 37%
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 27712
+Only local connections are allowed.
+Jun 11, 2018 8:47:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearch" classname="tests.IMDBTests" time="7.679"/>
+  <testcase name="verifySearch" classname="tests.IMDBTests" time="12.472"/>
+  <testcase name="verifyInvalidLogin" classname="tests.IMDBTests" time="4.592"/>
+</testsuite>

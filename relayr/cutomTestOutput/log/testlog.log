@@ -1,0 +1,62 @@
+2018-06-11 21:22:47,089 - tests.IMDBTests -INFO - ###########Opening Browser##########
+2018-06-11 21:22:48,306 - utilities.IMDBUtilities -INFO - Reading Excel file Movies
+2018-06-11 21:22:49,160 - utilities.IMDBUtilities -INFO - Reading of excel file Movies is completed
+2018-06-11 21:22:50,850 - pageObject.SearchObjects -INFO - Searching lord of the rings on IMDB
+2018-06-11 21:22:54,133 - pageObject.SearchObjects -INFO - Checking Accuracy of Search w.r.t. movie: lord of the rings in suggestions
+2018-06-11 21:22:54,176 - pageObject.SearchObjects -INFO - Matching suggestions: The Lord of the Rings: The Fellowship of the Ring (2001)
+Elijah Wood, Ian McKellen
+2018-06-11 21:22:54,235 - pageObject.SearchObjects -INFO - Matching suggestions: The Lord of the Rings: The Return of the King (2003)
+Elijah Wood, Viggo Mortensen
+2018-06-11 21:22:54,280 - pageObject.SearchObjects -INFO - Matching suggestions: The Lord of the Rings: The Two Towers (2002)
+Elijah Wood, Ian McKellen
+2018-06-11 21:22:54,331 - pageObject.SearchObjects -INFO - Matching suggestions: The Lord of the Rings (1978)
+Christopher Guard, William Squire
+2018-06-11 21:22:54,373 - pageObject.SearchObjects -INFO - Matching suggestions: The Lord of the Rings
+2018-06-11 21:22:54,404 - pageObject.SearchObjects -INFO - Matching suggestions: Lord of the Rings (2014)
+Nathaniel Luland, Nathaniel Luland
+2018-06-11 21:22:54,450 - pageObject.SearchObjects -INFO - Matching suggestions: The Lord of the Rings Online (2007)
+Harry Chase, Chris Edgerly
+2018-06-11 21:22:54,497 - pageObject.SearchObjects -INFO - Matching suggestions: Lord of the Rings (1990)
+Robin Atkin Downes, Robin Atkin Downes
+2018-06-11 21:22:54,497 - pageObject.SearchObjects -INFO - Search accuracy of Search w.r.t. movie lord of the rings is 100%
+2018-06-11 21:22:54,497 - pageObject.SearchObjects -INFO - Clicking on first element
+2018-06-11 21:22:57,250 - tests.IMDBTests -INFO - Test method verifySearch is passed
+2018-06-11 21:22:57,322 - pageObject.SearchObjects -INFO - Searching harry potter on IMDB
+2018-06-11 21:23:00,926 - pageObject.SearchObjects -INFO - Checking Accuracy of Search w.r.t. movie: harry potter in suggestions
+2018-06-11 21:23:00,961 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Sorcerer's Stone (2001)
+Daniel Radcliffe, Rupert Grint
+2018-06-11 21:23:01,075 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Deathly Hallows: Part 2 (2011)
+Daniel Radcliffe, Emma Watson
+Harry Potter and the Deathly Hallows: Part 2 -- Trailer #2
+2:33
+Deleted Scene
+0:41
+"The Story"
+4:24
+See all 18 Videos
+2018-06-11 21:23:01,113 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Goblet of Fire (2005)
+Daniel Radcliffe, Emma Watson
+2018-06-11 21:23:01,161 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Chamber of Secrets (2002)
+Daniel Radcliffe, Rupert Grint
+2018-06-11 21:23:01,208 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Prisoner of Azkaban (2004)
+Daniel Radcliffe, Emma Watson
+2018-06-11 21:23:01,259 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Order of the Phoenix (2007)
+Daniel Radcliffe, Emma Watson
+2018-06-11 21:23:01,296 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Deathly Hallows: Part 1 (2010)
+Daniel Radcliffe, Emma Watson
+2018-06-11 21:23:01,343 - pageObject.SearchObjects -INFO - Matching suggestions: Harry Potter and the Half-Blood Prince (2009)
+Daniel Radcliffe, Emma Watson
+2018-06-11 21:23:01,343 - pageObject.SearchObjects -INFO - Search accuracy of Search w.r.t. movie harry potter is 100%
+2018-06-11 21:23:01,343 - pageObject.SearchObjects -INFO - Clicking on first element
+2018-06-11 21:23:03,697 - tests.IMDBTests -INFO - Test method verifySearch is passed
+2018-06-11 21:23:03,750 - pageObject.SearchObjects -INFO - Searching !@# on IMDB
+2018-06-11 21:23:13,924 - pageObject.SearchObjects -INFO - Search is entered
+2018-06-11 21:23:15,715 - pageObject.SearchObjects -INFO - no results found for "!@#"
+2018-06-11 21:23:15,749 - tests.IMDBTests -INFO - Test method verifySearch is passed
+2018-06-11 21:23:15,755 - pageObject.LoginPageObjects -INFO - clicked on signIn option
+2018-06-11 21:23:16,617 - pageObject.LoginPageObjects -INFO - clicked on signIn with IMDB
+2018-06-11 21:23:17,595 - pageObject.LoginPageObjects -INFO - Email is entered: 2091229750totaljszp@der.com
+2018-06-11 21:23:17,868 - pageObject.LoginPageObjects -INFO - Password is entered: 12345
+2018-06-11 21:23:17,972 - pageObject.LoginPageObjects -INFO - Clicked on Login
+2018-06-11 21:23:19,153 - tests.IMDBTests -INFO - Test method verifyInvalidLogin is passed
+2018-06-11 21:23:19,621 - tests.IMDBTests -INFO - ###########Closing Browser##########
