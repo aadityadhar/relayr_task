@@ -52,5 +52,5 @@ c) Screenshots: Screenshot of failed test cases will get captured in FailedCase_
     Clone or download the repository
     Open the project in eclipse IDE
     Import the Maven project and then run pom.xml file
-    Run the testCase java file "IMDBTests.java" present in path : src/test/java/tests/IMDBTests
+    Run the testCase java file "AzentTests.java" present in path : src/test/java/tests/AzentTests
     Run as TestNG tests.
